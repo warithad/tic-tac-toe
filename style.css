@@ -45,6 +45,7 @@ body{
     width: 500px;
     height: 500px;
     gap: 2px;
+    background-color: #78350f;
 }
 
 .tile {
@@ -52,8 +53,8 @@ body{
     border-style: none;
 }
 
-button:hover{
-    box-shadow: 3px 3px 3px 3px #9ca3af;
+.tile:hover{
+    background-color: #ecfccb;
 }
 
 #restart {
