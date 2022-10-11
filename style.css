@@ -1,0 +1,81 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: spesh;
+    background-color:#e5e7eb;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    gap: 5em;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #365314;
+    width: 100%;
+    font-weight: bold;
+    font-size: 40px;
+    color: #ecfccb;
+}
+
+#turn-text{
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 500px;
+    height: 500px;
+    gap: 2px;
+}
+
+.tile {
+    background-color: #f9fafb;
+    border-style: none;
+}
+
+button:hover{
+    box-shadow: 3px 3px 3px 3px #9ca3af;
+}
+
+#restart {
+    width:fit-content;
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    color: #f9fafb;
+    font-weight: bold;
+    background-color: black;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.footer {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@font-face {
+    font-family: spesh;
+    src: url("NunitoSans-Regular.ttf");
+}
