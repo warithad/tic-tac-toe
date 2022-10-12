@@ -38,6 +38,12 @@ body{
     align-items: center;
 }
 
+#text-display {
+    font-weight: bolder;
+    font-size: 50px;
+    margin: 0%;
+}
+
 .board {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -51,6 +57,11 @@ body{
 .tile {
     background-color: #f9fafb;
     border-style: none;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #27272a;
+    font-weight: 15px;
 }
 
 .tile:hover{
@@ -71,9 +82,15 @@ body{
     border-radius: 10px;
 }
 
+#restart:hover {
+    background-color: #27272a;
+}
+
 .footer {
     display: flex;
     margin-bottom: 20px;
+    align-items: center;
+    gap: 1em;
 }
 
 @font-face {
